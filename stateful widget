@@ -15,7 +15,8 @@ class _YellowBirdState extends State<YellowBird> {
     return const MaterialApp(
       home: Scaffold(
         body: ColoredBox(
-          color: Color(0xFFFFE306), // Bright yellow background
+          color: Colors.yellow, // Bright yellow background
+          child: SizedBox.expand(), // fills the whole screen
         ),
       ),
     );
