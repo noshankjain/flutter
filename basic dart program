@@ -1,0 +1,21 @@
+void main() {
+  // Variables
+  String name = "Flutter";
+  int version = 3;
+  double rating = 4.9;
+
+  // Printing values
+  print("Hello, welcome to $name!");
+  print("Version: $version");
+  print("Rating: $rating");
+
+  // Control structures
+  if (rating > 4.5) {
+    print("This framework is awesome!");
+  }
+
+  // Loop
+  for (int i = 1; i <= 3; i++) {
+    print("Loop iteration $i");
+  }
+}
